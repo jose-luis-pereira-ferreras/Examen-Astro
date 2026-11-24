@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://academialumen.com',
+  site: 'https://jose-luis-pereira-ferreras.github.io/Examen-Astro',
   integrations: [sitemap()],
 });
