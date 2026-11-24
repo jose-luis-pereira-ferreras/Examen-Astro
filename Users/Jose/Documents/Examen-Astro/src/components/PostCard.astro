@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { BASE_URL } from '../site.config';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -7,7 +8,7 @@ interface Props {
 
 const { post } = Astro.props;
 const { title, description, pubDate, image, tags } = post.data;
-const href = `/blog/${post.id.replace(/\.md$/, '')}`;
+const href = `${BASE_URL}blog/${post.id.replace(/\.md$/, '')}`;
 ---
 <article class="post-card">
   {image && <img src={image} alt={title} />}

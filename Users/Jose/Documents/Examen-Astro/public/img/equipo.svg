@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f7f8f6"/>
+  <rect x="60" y="90" width="680" height="240" rx="12" fill="#ffffff" stroke="#e2e2e2" stroke-width="2"/>
+  <text x="400" y="190" font-family="system-ui, Arial, sans-serif" font-size="22" fill="#1f1f1f" text-anchor="middle">Estzos Extended</text>
+  <text x="400" y="260" font-family="system-ui, Arial, sans-serif" font-size="18" fill="#0b4d3a" text-anchor="middle">Fotos de la Academia Lumen</text>
+</svg>

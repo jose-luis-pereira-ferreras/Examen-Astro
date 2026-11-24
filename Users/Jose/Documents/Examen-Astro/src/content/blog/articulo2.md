@@ -3,7 +3,7 @@ title: "Por qué aprender una nueva habilidad después de los 30"
 description: "Ventajas de seguir aprendiendo profesionalmente después de los treinta: mejores salarios, adaptabilidad y satisfacción personal."
 pubDate: 2026-10-20T09:00:00Z
 tags: ["desarrollo personal", "carrera", "talleres"]
-image: "/img/blog/habilidad-pos30.jpg"
+image: "/Examen-Astro/img/blog/habilidad-pos30.svg"
 ---
 
 # Por qué aprender una nueva habilidad después de los 30

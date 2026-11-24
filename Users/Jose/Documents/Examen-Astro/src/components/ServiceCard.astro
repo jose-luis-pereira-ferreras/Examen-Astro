@@ -1,11 +1,13 @@
 ---
+import { BASE_URL } from '../site.config';
+
 interface Props {
   name: string;
   description: string;
   href?: string;
 }
 
-const { name, description, href = '/' } = Astro.props;
+const { name, description, href = BASE_URL } = Astro.props;
 ---
 <div class="service-card">
   <h3><a href={href}>{name}</a></h3>

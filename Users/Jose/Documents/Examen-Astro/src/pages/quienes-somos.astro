@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TeamCard from '../components/TeamCard.astro';
-import { SITE_DESCRIPTION, TEAM_MEMBERS } from '../site.config';
+import { SITE_DESCRIPTION, TEAM_MEMBERS, BASE_URL } from '../site.config';
 ---
 <BaseLayout
   title="Quiénes somos - Academia Lumen"
   description="Historia, misión, visión y equipo de Academia Lumen."
-  image="/img/equipo.jpg"
+  image={`${BASE_URL}img/equipo.svg`}
 >
   <section class="about">
     <h1>Quiénes somos</h1>

@@ -2,12 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CTABanner from '../components/CTABanner.astro';
 import ServiceCard from '../components/ServiceCard.astro';
-import { SERVICES, SITE_DESCRIPTION } from '../site.config';
+import { SERVICES, SITE_DESCRIPTION, BASE_URL } from '../site.config';
 ---
 <BaseLayout
   title="Inicio - Academia Lumen"
   description={SITE_DESCRIPTION}
-  image="/img/hero.jpg"
+  image={`${BASE_URL}img/hero.svg`}
 >
   <section class="hero" id="inicio">
     <div class="hero-text">
@@ -18,7 +18,7 @@ import { SERVICES, SITE_DESCRIPTION } from '../site.config';
       </p>
       <CTABanner />
     </div>
-    <img src="/img/hero.jpg" alt="Estudiantes aprendiendo en Academia Lumen" />
+    <img src={`${BASE_URL}img/hero.svg`} alt="Estudiantes aprendiendo en Academia Lumen" />
   </section>
 
   <section id="servicios" class="services">
@@ -38,6 +38,6 @@ import { SERVICES, SITE_DESCRIPTION } from '../site.config';
 
   <section class="cta-banner">
     <h3>¿Quieres inscribirte?</h3>
-    <a href="/cta" class="btn btn-primary">Conoce nuestros cursos →</a>
+    <a href={`${BASE_URL}cta`} class="btn btn-primary">Conoce nuestros cursos →</a>
   </section>
 </BaseLayout>

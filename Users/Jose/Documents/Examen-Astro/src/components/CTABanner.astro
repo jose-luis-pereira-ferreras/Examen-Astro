@@ -1,4 +1,6 @@
 ---
+import { BASE_URL } from '../site.config';
+
 interface Props {
   headline?: string;
   buttonText?: string;
@@ -8,7 +10,7 @@ interface Props {
 const {
   headline = '¿Listo para avanzar?',
   buttonText = 'Conoce nuestros cursos',
-  url = '/cta',
+  url = `${BASE_URL}cta`,
 } = Astro.props;
 ---
 <div class="cta-banner">

@@ -3,7 +3,7 @@ title: "Consejos para estudiar una carrera en línea"
 description: "Mejores prácticas para que el estudio virtual sea efectivo y te permita graduarte sin perder ritmo."
 pubDate: 2026-11-02T09:00:00Z
 tags: ["estudio en línea", "carrera", "consejos"]
-image: "/img/blog/estudio-online.jpg"
+image: "/Examen-Astro/img/blog/estudio-online.svg"
 ---
 
 # Consejos para estudiar una carrera en línea

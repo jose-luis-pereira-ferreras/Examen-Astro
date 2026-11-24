@@ -1,6 +1,5 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from '../site.config';
-import { TEAM_MEMBERS } from '../site.config';
+import { SITE_TITLE, SITE_DESCRIPTION, BASE_URL } from '../site.config';
 ---
 <footer class="footer">
   <div class="footer-grid">
@@ -10,11 +9,11 @@ import { TEAM_MEMBERS } from '../site.config';
     </div>
     <nav class="footer-links">
       <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/">Servicios</a></li>
-        <li><a href="/quienes-somos">Quienes somos</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/cta">Llamada a la acción</a></li>
+        <li><a href={BASE_URL}>Inicio</a></li>
+        <li><a href={BASE_URL}>Servicios</a></li>
+        <li><a href={`${BASE_URL}quienes-somos`}>Quienes somos</a></li>
+        <li><a href={`${BASE_URL}blog`}>Blog</a></li>
+        <li><a href={`${BASE_URL}cta`}>Llamada a la acción</a></li>
       </ul>
     </nav>
     <div class="footer-contact">

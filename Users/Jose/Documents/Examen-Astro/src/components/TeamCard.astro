@@ -1,4 +1,6 @@
 ---
+import { BASE_URL } from '../site.config';
+
 interface Props {
   name: string;
   role: string;
@@ -6,11 +8,10 @@ interface Props {
   photo?: string;
 }
 
-const { name, role, bio, photo = '/img/team/team.jpg' } = Astro.props;
+const { name, role, bio, photo = `${BASE_URL}img/team/team.svg` } = Astro.props;
 ---
 <div class="team-card">
-  <!-- Reemplaza con tu foto cuando tengas: <img src={photo} alt={name} /> -->
-  <div class="team-photo">👤</div>
+  <img class="team-photo" src={photo} alt={name} />
   <h3>{name}</h3>
   <p class="team-role">{role}</p>
   {bio && <p>{bio}</p>}

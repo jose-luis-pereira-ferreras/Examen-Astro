@@ -3,7 +3,7 @@ title: "Cómo elegir tu primer curso de programación"
 description: "Guía práctica para estudiantes que quieren empezar en programación y elegir el curso ideal para su nivel."
 pubDate: 2026-10-05T09:00:00Z
 tags: ["programación", "cursos", "empieza-ahora"]
-image: "/img/blog/curso-programacion.jpg"
+image: "/Examen-Astro/img/blog/curso-programacion.svg"
 ---
 
 # Cómo elegir tu primer curso de programación
