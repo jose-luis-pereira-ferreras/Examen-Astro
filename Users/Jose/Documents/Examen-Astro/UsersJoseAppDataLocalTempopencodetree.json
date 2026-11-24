@@ -1,0 +1,281 @@
+{
+  "sha": "2be9e8f68490bc576a1a3838beed7c052c1de9a1",
+  "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/2be9e8f68490bc576a1a3838beed7c052c1de9a1",
+  "tree": [
+    {
+      "path": "Users",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b089778b8dbd476e2097640c61052d1fa882957a",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/b089778b8dbd476e2097640c61052d1fa882957a"
+    },
+    {
+      "path": "Users/Jose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0f74ac10b6eccdbf6d10d94e717779eecd6ecff",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/a0f74ac10b6eccdbf6d10d94e717779eecd6ecff"
+    },
+    {
+      "path": "Users/Jose/Documents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7997b97f3955599b0a486c61ce6cf8ce0a165ac1",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/7997b97f3955599b0a486c61ce6cf8ce0a165ac1"
+    },
+    {
+      "path": "Users/Jose/Documents/Examen-Astro",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c541548fa3fc9552b59691634065271d2a5b4614",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/c541548fa3fc9552b59691634065271d2a5b4614"
+    },
+    {
+      "path": "Users/Jose/Documents/Examen-Astro/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0564e930f0ff13bc70ca06b804f1b428b26c8af2",
+      "size": 33,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/0564e930f0ff13bc70ca06b804f1b428b26c8af2"
+    },
+    {
+      "path": "_astro",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "174b34ad2c3f4d810ecc9be82c8e0e21a73e0008",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/174b34ad2c3f4d810ecc9be82c8e0e21a73e0008"
+    },
+    {
+      "path": "_astro/blog.AIW3T6pK.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff907cc0a6cd8df66f5e38cd96e3406e80e5baf",
+      "size": 7200,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/3ff907cc0a6cd8df66f5e38cd96e3406e80e5baf"
+    },
+    {
+      "path": "blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ec00e5b7e4bbd4fffa45b9ff59425da547067d8",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/1ec00e5b7e4bbd4fffa45b9ff59425da547067d8"
+    },
+    {
+      "path": "blog/articulo1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eada3d148d3ebc8bdd55028469ea61824c83beea",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/eada3d148d3ebc8bdd55028469ea61824c83beea"
+    },
+    {
+      "path": "blog/articulo1/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f44d4a62322ab18b5b7b4ea52baad46e124e97d",
+      "size": 4990,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/7f44d4a62322ab18b5b7b4ea52baad46e124e97d"
+    },
+    {
+      "path": "blog/articulo2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6bc11f0e5338eef7103ea533732f5b368883963",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/c6bc11f0e5338eef7103ea533732f5b368883963"
+    },
+    {
+      "path": "blog/articulo2/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f465510e3823a456341274c875a1a675dd2cab3f",
+      "size": 4847,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/f465510e3823a456341274c875a1a675dd2cab3f"
+    },
+    {
+      "path": "blog/articulo3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f69e217a63307bce6148610afb18d90674136da8",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/f69e217a63307bce6148610afb18d90674136da8"
+    },
+    {
+      "path": "blog/articulo3/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de01270b40b3f9e613aae61cf726c0bb554025c",
+      "size": 4765,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/5de01270b40b3f9e613aae61cf726c0bb554025c"
+    },
+    {
+      "path": "blog/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53407080a7095b5400f2cf6f874c6ed30eff2411",
+      "size": 4576,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/53407080a7095b5400f2cf6f874c6ed30eff2411"
+    },
+    {
+      "path": "cta",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ee769b53ae0c0ae9f0de78cdef4a916a199d8a4",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/6ee769b53ae0c0ae9f0de78cdef4a916a199d8a4"
+    },
+    {
+      "path": "cta/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b630152ade6c8c6e9cf721c9450aad71d34610f1",
+      "size": 3709,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/b630152ade6c8c6e9cf721c9450aad71d34610f1"
+    },
+    {
+      "path": "img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "010e49b4981077b731248e38e97b091db863e5f9",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/010e49b4981077b731248e38e97b091db863e5f9"
+    },
+    {
+      "path": "img/blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b103242c1dedc1bbf96ba5c388b1bb077812170",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/4b103242c1dedc1bbf96ba5c388b1bb077812170"
+    },
+    {
+      "path": "img/blog/curso-programacion.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19520157de498e613a88b40cf04ef95980aec440",
+      "size": 598,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/19520157de498e613a88b40cf04ef95980aec440"
+    },
+    {
+      "path": "img/blog/estudio-online.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ca3df58a2b1b39973c06f843d612e9935dfed48",
+      "size": 600,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/7ca3df58a2b1b39973c06f843d612e9935dfed48"
+    },
+    {
+      "path": "img/blog/habilidad-pos30.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa68bdaf431e1d7fce94c41a3545d19685c0a1ad",
+      "size": 612,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/aa68bdaf431e1d7fce94c41a3545d19685c0a1ad"
+    },
+    {
+      "path": "img/equipo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f09987ee2936bb8d8c9962ae2877405110da8c",
+      "size": 544,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/63f09987ee2936bb8d8c9962ae2877405110da8c"
+    },
+    {
+      "path": "img/hero.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1dcaff09ba702fd5a9926471f69047369a96c3",
+      "size": 473,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/4a1dcaff09ba702fd5a9926471f69047369a96c3"
+    },
+    {
+      "path": "img/team",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c4056353c0caff31d5145b96d173d114455df51",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/3c4056353c0caff31d5145b96d173d114455df51"
+    },
+    {
+      "path": "img/team/ana-martinez.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224ada035a90083c4381eedd2a320d16e05255d3",
+      "size": 543,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/224ada035a90083c4381eedd2a320d16e05255d3"
+    },
+    {
+      "path": "img/team/carlos-ramirez.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb23b383678275a9138272185ce4c3d8704e93d",
+      "size": 550,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/2cb23b383678275a9138272185ce4c3d8704e93d"
+    },
+    {
+      "path": "img/team/maria-lopez.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ffe990479d15447f7282000f99600f0d7b1c78",
+      "size": 550,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/83ffe990479d15447f7282000f99600f0d7b1c78"
+    },
+    {
+      "path": "img/team/roberto-gomez.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38c42bc9664cee5d60989ad94c03be46fcebf09",
+      "size": 556,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/d38c42bc9664cee5d60989ad94c03be46fcebf09"
+    },
+    {
+      "path": "img/team/team.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6fb09fd669ead58d2dc501b519f8f4cf3faf601",
+      "size": 549,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/d6fb09fd669ead58d2dc501b519f8f4cf3faf601"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c4e1863ed10381221f9e5a35deac3a83031df0",
+      "size": 4693,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/f9c4e1863ed10381221f9e5a35deac3a83031df0"
+    },
+    {
+      "path": "quienes-somos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f008bfe6ed784b147e3e79c5e472329d7674bbe0",
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/trees/f008bfe6ed784b147e3e79c5e472329d7674bbe0"
+    },
+    {
+      "path": "quienes-somos/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b509c89fc813ca8fd99936c9f2ba00a2527658f6",
+      "size": 5109,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/b509c89fc813ca8fd99936c9f2ba00a2527658f6"
+    },
+    {
+      "path": "robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d240ed1146fda4ec56dfd3a8937f308fc08255eb",
+      "size": 77,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/d240ed1146fda4ec56dfd3a8937f308fc08255eb"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7520857945f989208d05f9ba0d13de24a09de4cf",
+      "size": 962,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/7520857945f989208d05f9ba0d13de24a09de4cf"
+    },
+    {
+      "path": "sitemap-index.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03ac55429bfe85f04cf6f326432d51c491df944",
+      "size": 220,
+      "url": "https://api.github.com/repos/jose-luis-pereira-ferreras/Examen-Astro/git/blobs/e03ac55429bfe85f04cf6f326432d51c491df944"
+    }
+  ],
+  "truncated": false
+}
