@@ -1,0 +1,17 @@
+---
+interface Props {
+  headline?: string;
+  buttonText?: string;
+  url?: string;
+}
+
+const {
+  headline = '¿Listo para avanzar?',
+  buttonText = 'Conoce nuestros cursos',
+  url = '/cta',
+} = Astro.props;
+---
+<div class="cta-banner">
+  <h3>{headline}</h3>
+  <a href={url} class="btn btn-primary">{buttonText}</a>
+</div>

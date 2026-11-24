@@ -1,0 +1,40 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../site.config';
+import { TEAM_MEMBERS } from '../site.config';
+---
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-about">
+      <h3>{SITE_TITLE}</h3>
+      <p>{SITE_DESCRIPTION}</p>
+    </div>
+    <nav class="footer-links">
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/">Servicios</a></li>
+        <li><a href="/quienes-somos">Quienes somos</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/cta">Llamada a la acción</a></li>
+      </ul>
+    </nav>
+    <div class="footer-contact">
+      <h3>Contacto</h3>
+      <ul>
+        <!-- Reemplaza los datos con los tuyos -->
+        <li>📧 <a href="mailto:contacto@academialumen.com">contacto@academialumen.com</a></li>
+        <li>📍 Ciudad de México, México</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-copy">
+    © {new Date().getFullYear()} {SITE_TITLE}. Todos los derechos reservados.
+  </p>
+  <!-- Optional: descomenta cuando tengas enlaces a redes sociales -->
+  <!--
+  <ul class="footer-social">
+    <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+    <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+    <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+  </ul>
+  -->
+</footer>

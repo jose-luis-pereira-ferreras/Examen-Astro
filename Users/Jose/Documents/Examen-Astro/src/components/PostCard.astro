@@ -1,0 +1,21 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, image, tags } = post.data;
+const href = `/blog/${post.id.replace(/\.md$/, '')}`;
+---
+<article class="post-card">
+  {image && <img src={image} alt={title} />}
+  <h3><a href={href}>{title}</a></h3>
+  <p class="post-meta">
+    <time datetime={pubDate.toISOString().slice(0, 10)}>{pubDate.toLocaleDateString('es-MX')}</time>
+    {tags.length > 0 ? ` — ${tags.join(', ')}` : ''}
+  </p>
+  <p>{description}</p>
+  <a href={href} class="btn btn-primary">Leer más →</a>
+</article>

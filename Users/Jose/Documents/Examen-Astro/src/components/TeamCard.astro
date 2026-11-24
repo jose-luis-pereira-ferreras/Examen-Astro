@@ -1,0 +1,17 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  bio?: string;
+  photo?: string;
+}
+
+const { name, role, bio, photo = '/img/team/team.jpg' } = Astro.props;
+---
+<div class="team-card">
+  <!-- Reemplaza con tu foto cuando tengas: <img src={photo} alt={name} /> -->
+  <div class="team-photo">👤</div>
+  <h3>{name}</h3>
+  <p class="team-role">{role}</p>
+  {bio && <p>{bio}</p>}
+</div>

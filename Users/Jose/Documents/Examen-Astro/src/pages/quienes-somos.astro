@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TeamCard from '../components/TeamCard.astro';
+import { SITE_DESCRIPTION, TEAM_MEMBERS } from '../site.config';
+---
+<BaseLayout
+  title="Quiénes somos - Academia Lumen"
+  description="Historia, misión, visión y equipo de Academia Lumen."
+  image="/img/equipo.jpg"
+>
+  <section class="about">
+    <h1>Quiénes somos</h1>
+
+    <h2>Historia</h2>
+    <p>
+      Fundada con el objetivo de acercar formación de calidad a más personas,
+      Academia Lumen nació de la idea de combinar enseñanza técnica y metodologías
+      que promueven el aprendizaje activo. A lo largo de los años hemos trabajado
+      con estudiantes, profesionales y empresas que buscan actualizarse y
+      desarrollar nuevas habilidades.
+    </p>
+
+    <h2>Misión</h2>
+    <p>
+      Fomentar el desarrollo profesional de las personas a través de programas
+      educativos que combinan teoría, práctica y acompañamiento, con el fin de
+      que nuestros estudiantes adquieran competencias útiles en el mercado y
+      en la vida cotidiana.
+    </p>
+
+    <h2>Visión</h2>
+    <p>
+      Ser la institución de referencia en formación continua de la región,
+      reconocida por la calidad de nuestros cursos y talleres, por el apoyo que
+      ofrecemos a estudiantes y profesionales, y por crecer junto a los
+      acompañantes de nuestras capacitaciones.
+    </p>
+
+    <h2>Equipo</h2>
+    <div class="team-grid">
+      {
+        TEAM_MEMBERS.map((member) => (
+          <TeamCard
+            name={member.name}
+            role={member.role}
+            bio={member.bio}
+            photo={member.photo}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

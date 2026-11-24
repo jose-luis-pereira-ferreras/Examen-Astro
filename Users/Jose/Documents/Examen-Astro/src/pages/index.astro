@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CTABanner from '../components/CTABanner.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import { SERVICES, SITE_DESCRIPTION } from '../site.config';
+---
+<BaseLayout
+  title="Inicio - Academia Lumen"
+  description={SITE_DESCRIPTION}
+  image="/img/hero.jpg"
+>
+  <section class="hero" id="inicio">
+    <div class="hero-text">
+      <h1>Bienvenidos a Academia Lumen</h1>
+      <p>
+        Formación continua con cursos, talleres y capacitación para que puedas
+        crecer profesionalmente y continuar aprendiendo.
+      </p>
+      <CTABanner />
+    </div>
+    <img src="/img/hero.jpg" alt="Estudiantes aprendiendo en Academia Lumen" />
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="services-grid">
+      {
+        SERVICES.map((service) => (
+          <ServiceCard
+            name={service.title}
+            description={service.description}
+            href={service.href}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <h3>¿Quieres inscribirte?</h3>
+    <a href="/cta" class="btn btn-primary">Conoce nuestros cursos →</a>
+  </section>
+</BaseLayout>

@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, updatedDate, image, tags } = post.data;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.md$/, '') },
+    props: { post },
+  }));
+}
+
+const { Content } = await post.render();
+---
+<BaseLayout
+  title={`${title} - Academia Lumen`}
+  description={description}
+  image={image}
+>
+  <article class="post">
+    <h1>{title}</h1>
+    <p class="post-meta">
+      {pubDate.toLocaleDateString('es-MX')}
+      {updatedDate && ` · Actualizado ${updatedDate.toLocaleDateString('es-MX')}`}
+      {tags.length > 0 ? ` — ${tags.join(', ')}` : ''}
+    </p>
+    {image && <img src={image} alt={title} />}
+    <div class="post-content">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

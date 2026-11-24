@@ -1,0 +1,31 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SeoHead from '../components/SeoHead.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  url?: string;
+  image?: string;
+  type?: string;
+}
+
+const { title, description, url, image, type = 'website' } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <SeoHead title={title} description={description} url={url} image={image} type={type} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
